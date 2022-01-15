@@ -285,6 +285,7 @@ GameObject:
   - component: {fileID: 86972195}
   - component: {fileID: 86972194}
   - component: {fileID: 86972193}
+  - component: {fileID: 86972196}
   m_Layer: 5
   m_Name: Eagles_Nest_Button
   m_TagString: Untagged
@@ -380,6 +381,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 86972196}
+        m_TargetAssemblyTypeName: UnityEngine.Analytics.AnalyticsEventTracker, Unity.Analytics.Tracker
+        m_MethodName: TriggerEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &86972194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,6 +431,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86972191}
   m_CullTransparentMesh: 1
+--- !u!114 &86972196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86972191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -745406591, guid: 220224b43fc464c28bc0e8de8f54a432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Trigger:
+    m_IsTriggerExpanded: 1
+    m_Type: 0
+    m_LifecycleEvent: 0
+    m_ApplyRules: 0
+    m_Rules:
+      m_Rules: []
+    m_TriggerBool: 0
+    m_InitTime: 5
+    m_RepeatTime: 5
+    m_Repetitions: 0
+    repetitionCount: 0
+  m_EventPayload:
+    m_IsEventExpanded: 1
+    m_StandardEventType: CustomEvent
+    m_Parameters:
+      m_Parameters: []
+    m_Name: eagles
 --- !u!1 &127025847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,6 +1156,7 @@ GameObject:
   - component: {fileID: 410455418}
   - component: {fileID: 410455417}
   - component: {fileID: 410455416}
+  - component: {fileID: 410455419}
   m_Layer: 5
   m_Name: Giant_Beasts_Button
   m_TagString: Untagged
@@ -1208,6 +1252,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 410455419}
+        m_TargetAssemblyTypeName: UnityEngine.Analytics.AnalyticsEventTracker, Unity.Analytics.Tracker
+        m_MethodName: TriggerEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &410455417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1246,6 +1302,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410455414}
   m_CullTransparentMesh: 1
+--- !u!114 &410455419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410455414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -745406591, guid: 220224b43fc464c28bc0e8de8f54a432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Trigger:
+    m_IsTriggerExpanded: 1
+    m_Type: 1
+    m_LifecycleEvent: 0
+    m_ApplyRules: 0
+    m_Rules:
+      m_Rules: []
+    m_TriggerBool: 0
+    m_InitTime: 5
+    m_RepeatTime: 5
+    m_Repetitions: 0
+    repetitionCount: 0
+  m_EventPayload:
+    m_IsEventExpanded: 1
+    m_StandardEventType: CustomEvent
+    m_Parameters:
+      m_Parameters: []
+    m_Name: giant beasts
 --- !u!1 &473730466
 GameObject:
   m_ObjectHideFlags: 0
@@ -1337,6 +1423,7 @@ GameObject:
   - component: {fileID: 491198315}
   - component: {fileID: 491198314}
   - component: {fileID: 491198313}
+  - component: {fileID: 491198316}
   m_Layer: 5
   m_Name: Africa_Button
   m_TagString: Untagged
@@ -1432,6 +1519,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 491198316}
+        m_TargetAssemblyTypeName: UnityEngine.Analytics.AnalyticsEventTracker, Unity.Analytics.Tracker
+        m_MethodName: TriggerEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &491198314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1470,6 +1569,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491198311}
   m_CullTransparentMesh: 1
+--- !u!114 &491198316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491198311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -745406591, guid: 220224b43fc464c28bc0e8de8f54a432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Trigger:
+    m_IsTriggerExpanded: 1
+    m_Type: 1
+    m_LifecycleEvent: 0
+    m_ApplyRules: 0
+    m_Rules:
+      m_Rules: []
+    m_TriggerBool: 0
+    m_InitTime: 5
+    m_RepeatTime: 5
+    m_Repetitions: 0
+    repetitionCount: 0
+  m_EventPayload:
+    m_IsEventExpanded: 1
+    m_StandardEventType: CustomEvent
+    m_Parameters:
+      m_Parameters: []
+    m_Name: africa
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,6 +2070,7 @@ GameObject:
   - component: {fileID: 637091455}
   - component: {fileID: 637091454}
   - component: {fileID: 637091453}
+  - component: {fileID: 637091456}
   m_Layer: 5
   m_Name: Big_Cats_Button
   m_TagString: Untagged
@@ -2036,6 +2166,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 637091456}
+        m_TargetAssemblyTypeName: UnityEngine.Analytics.AnalyticsEventTracker, Unity.Analytics.Tracker
+        m_MethodName: TriggerEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &637091454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2074,6 +2216,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637091451}
   m_CullTransparentMesh: 1
+--- !u!114 &637091456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637091451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -745406591, guid: 220224b43fc464c28bc0e8de8f54a432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Trigger:
+    m_IsTriggerExpanded: 1
+    m_Type: 0
+    m_LifecycleEvent: 0
+    m_ApplyRules: 0
+    m_Rules:
+      m_Rules: []
+    m_TriggerBool: 0
+    m_InitTime: 5
+    m_RepeatTime: 5
+    m_Repetitions: 0
+    repetitionCount: 0
+  m_EventPayload:
+    m_IsEventExpanded: 1
+    m_StandardEventType: CustomEvent
+    m_Parameters:
+      m_Parameters: []
+    m_Name: big cats
 --- !u!1 &689100106
 GameObject:
   m_ObjectHideFlags: 0
@@ -2625,6 +2797,7 @@ GameObject:
   - component: {fileID: 1141684925}
   - component: {fileID: 1141684924}
   - component: {fileID: 1141684923}
+  - component: {fileID: 1141684926}
   m_Layer: 5
   m_Name: Bear_Den_Button
   m_TagString: Untagged
@@ -2720,6 +2893,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1141684926}
+        m_TargetAssemblyTypeName: UnityEngine.Analytics.AnalyticsEventTracker, Unity.Analytics.Tracker
+        m_MethodName: TriggerEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1141684924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2758,6 +2943,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141684921}
   m_CullTransparentMesh: 1
+--- !u!114 &1141684926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141684921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -745406591, guid: 220224b43fc464c28bc0e8de8f54a432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Trigger:
+    m_IsTriggerExpanded: 1
+    m_Type: 0
+    m_LifecycleEvent: 0
+    m_ApplyRules: 0
+    m_Rules:
+      m_Rules: []
+    m_TriggerBool: 0
+    m_InitTime: 5
+    m_RepeatTime: 5
+    m_Repetitions: 0
+    repetitionCount: 0
+  m_EventPayload:
+    m_IsEventExpanded: 1
+    m_StandardEventType: CustomEvent
+    m_Parameters:
+      m_Parameters: []
+    m_Name: bear
 --- !u!1 &1210785990
 GameObject:
   m_ObjectHideFlags: 0
@@ -3501,6 +3716,7 @@ GameObject:
   - component: {fileID: 1559088213}
   - component: {fileID: 1559088212}
   - component: {fileID: 1559088211}
+  - component: {fileID: 1559088214}
   m_Layer: 5
   m_Name: Monkey_Habitat_Button
   m_TagString: Untagged
@@ -3596,6 +3812,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1559088214}
+        m_TargetAssemblyTypeName: UnityEngine.Analytics.AnalyticsEventTracker, Unity.Analytics.Tracker
+        m_MethodName: TriggerEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1559088212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3634,6 +3862,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559088209}
   m_CullTransparentMesh: 1
+--- !u!114 &1559088214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559088209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -745406591, guid: 220224b43fc464c28bc0e8de8f54a432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Trigger:
+    m_IsTriggerExpanded: 1
+    m_Type: 0
+    m_LifecycleEvent: 0
+    m_ApplyRules: 0
+    m_Rules:
+      m_Rules: []
+    m_TriggerBool: 0
+    m_InitTime: 5
+    m_RepeatTime: 5
+    m_Repetitions: 0
+    repetitionCount: 0
+  m_EventPayload:
+    m_IsEventExpanded: 1
+    m_StandardEventType: CustomEvent
+    m_Parameters:
+      m_Parameters: []
+    m_Name: monkey
 --- !u!1 &1593380151
 GameObject:
   m_ObjectHideFlags: 0
